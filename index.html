@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Desain, Pemrograman dan Fotografi .">
+  <title>Portofolio | Ayu Eka Tamara</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">AYU<span>.</span>CREATIVE</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#About Me">about Me</a>
+      <a href="#What I Can do">What I Can do</a>
+      <a href="#Process">process</a>
+      <a href="#Achievement">achievement</a>
+      <a href="#Contact">contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">DKV &amp; SISTEM INFORMASI</p>
+        <h1>AYU EKA<br>TAMARA</h1>
+        <small>NIM  : 26051214124</small>
+        <P small>PRODI: Sistem Informasi</small>
+        <p class="hero-description">Saya percaya bahwa setiap pengalaman bisa menjadi kesempatan untuk belajar. Saya mungkin masih mencari tahu apa yang benar-benar ingin saya tekuni,</p>
+        <p class="hero-description">proses untuk mengenal diri sendiri, mengembangkan kemampuan, dan menemukan hal-hal baru yang menarik.</p>
+        <a class="button" href="#project">EXPLORE MY PROJECTS ↗</a>
+      </div>
+      <div class="hero-visual" aria-label="myphoto.jpeg">
+
+        <div class="sun"></div>
+        <div class="placeholder-person" aria-hidden="true"><img src="my photo.jpeg" alt="Foto profil kreator"></div>
+        <span class="visual-label">YOUR BRAND, MY STORY.</span>
+      </div>
+    </section>
+
+    <section class="section about Me" id="About me">
+      <div>
+        <p class="eyebrow light">GET TO KNOW ME</p>
+        <h2>Hi, Saya Ayu!</h2>
+        <p class="hero-description">Saya pernah menempuh pendidikan dibidang Desain Komunikasi Visual dan sekarang saya melanjutkan perkuliahan di Program Studi Sistem Informasi untuk dapat menggabungkan antara karya visual dan perkembangan teknologi saat ini.</p>
+        <p class="hero-description">Menciptakan desain autentik yang membantu brand terhubung dengan audiens melalui visual dan cerita.</p>
+        <div class="stats">
+          <div><strong></strong><span>DESAIN</span></div>
+          <div><strong></strong><span>PEMROGRAMAN</span></div>
+          <div><strong></strong><span>FOTOGRAFI</span></div>
+        </div>
+      </div>
+      
+      <div class="portrait">
+      <img src="myphoto2.jpeg" alt="Foto Ayu">
+      </div>
+    </section>
+
+    <section class="section niches-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">WHAT I CREATE</p><h2>PROJEK SAYA</h2></div>
+      </div>
+      <p>Desain yang disesuaikan dengan brand dan kebutuhan klien.</p>
+      <div class="niches">
+        <div class="niche-list">
+          <div>✳ DESAIN GRAFIS</div><div>✳ ANTARMUKA UI</div><div>✳ DESAIN KEMASAN/PRODUK</div><div>✳ FOTOGRAFI</div><div>✳ KONTEN</div>
+        </div>
+        <p>Mulai dari desain umum hingga unik, setiap desain dirancang agar terlihat menarik, terasa autentik, dan sesuai dengan identitas brand.</p>
+      </div>
+    </section>
+
+    <section class="section gallery" id="What I Can do">
+      <div class="section-heading">
+        <div><p class="eyebrow light">SELECTED PROJECTS</p><h2>PROJEK SAYA</h2></div>
+        <p>Jelajahi pilihan karya berdasarkan kategori.</p>
+      </div>
+      <div class="filters" aria-label="Filter kategori proyek">
+        <button class="filter active" data-filter="all">ALL</button>
+        <button class="filter" data-filter="grafis">GRAFIS</button>
+        <button class="filter" data-filter="produk">PRODUK</button>
+        <button class="filter" data-filter="ui apk">UI APK</button>
+      </div>
+      
+<div class="projects">
+        <button class="project" data-category="grafis" data-title="Desain Grafis" data-desc="SPANDUK">
+          <span class="project-art art-one"><img src="SPANDUK.jpeg" alt="Spanduk"></span><span class="project-meta"><strong>DESAIN SPANDUK</strong><small>Adobe Ilustrator · Canva</small></span>
+        </button>
+        <button class="project" data-category="produk" data-title="Desain Produk" data-desc="Produk">
+          <span class="project-art art-two"><img src="Kemasan.jpg" alt="Kemasan"></span><span class="project-meta"><strong>DESAIN PRODUK</strong><small>Corel Draw · Adobe Ilustrator</small></span>
+        </button>
+        <button class="project" data-category="produk" data-title="Desan Produk" data-desc="Produk">
+          <span class="project-art art-two"><img src="Mockup.png" alt="Mockup"></span><span class="project-meta"><strong>DESAIN PRODUK</strong><small>Photoshop · Adobe Ilustrator</small></span>
+        </button>
+        <button class="project" data-category="grafis" data-title="Desain Grafis" data-desc="BANNER">
+          <span class="project-art art-two"><img src="Banner.jpg" alt="Banner"></span><span class="project-meta"><strong>BANNER</strong><small>Adobe Ilustrator · Canva</small></span>
+        </button>
+        <button class="project" data-category="ui apk" data-title="UI APK" data-desc="UI APK">
+          <span class="project-art art-two"><img src="MAMOMA.png" alt="UI APK"></span><span class="project-meta"><strong>UI APK</strong><small>Figma · Adobe Ilustrator</small></span>
+        </button>
+        <button class="project" data-category="grafis" data-title="Desain Grafis" data-desc="Brosur Menu">
+          <span class="project-art art-two"><img src="burger.jpg" alt="Brosur Menu"></span><span class="project-meta"><strong>BROSUR MENU</strong><small>Photoshop · Adobe Ilustrator</small></span>
+        </button>
+      </div>
+      <p class="project-detail" id="projectDetail" aria-live="polite"></p>
+    </section>
+
+    <section class="process-section" id="Process">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">FROM IDEA TO DESIGN</p>
+      <h2>MY CREATIVE PROCESS</h2>
+    </div>
+  </div>
+
+  <div class="process-grid">
+    <article>
+      <strong>01 / DISCOVER</strong>
+      <p>Memahami brand, produk, dan target audiens.</p>
+    </article>
+
+    <article>
+      <strong>02 / PLAN</strong>
+      <p>Menyusun konsep dan arah visual desain.</p>
+    </article>
+
+    <article>
+      <strong>03 / CREATE</strong>
+      <p>Mendesain dengan teliti.</p>
+    </article>
+
+    <article>
+      <strong>04 / DELIVER</strong>
+      <p>Menyelesaikan desain sesuai brief proyek.</p>
+    </article>
+  </div>
+</section>
+
+
+     <section class="section achievement" id="Achievement">
+      <p class="eyebrow">MY JOURNEY</p>
+      <h2>PENGALAMAN & PENCAPAIAN</h2>
+
+      <div class="journey-content">
+      <div class="journey-item">
+      <span>01 — PENGALAMAN</span>
+      <h3>Magang / Praktik Kerja Lapangan di Studio Photo</h3>
+      <p>Mendapatkan pengalaman secara langsung di dunia kerja, mengembangkan keterampilan, serta belajar bekerja secara profesional.</p>
+    </div>
+
+    <div class="journey-item">
+      <span>02 — KOMPETISI</span>
+      <h3>Kompetisi Lomaba Video Literasi</h3>
+      <p>Berpartisipasi dalam lomba pembuatan video sebagai kesempatan untuk mengembangkan kreativitas, kemampuan editing, dan menyampaikan ide melalui karya Video</p>
+    </div>
+
+    <div class="journey-item">
+      <span>03 — DEVELOPMENT</span>
+      <h3>Pengembangan Diri</h3>
+      <p>Terus mengeksplorasi bidang desain grafis, fotografi, dan editing video melalui berbagai proses belajar dan pengalaman baru.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section contact" id="Contact">
+  <p class="eyebrow light">LET'S COLLABORATE</p>
+  <h2>Kolaborasi Ciptakan Aksi</h2>
+  <p>Mari wujudkan ide kreatif menjadi desain yang menarik dan bermakna untuk brand kamu.</p>
+
+  <div class="contact-info">
+    <div class="contact-item">
+      <span>Email</span>
+      <p>ayuekatamara@gmail.com</p>
+    </div>
+
+    <div class="contact-item">
+      <span>Instagram</span>
+      <p>@ka_ayraa</p>
+    </div>
+
+    <div class="contact-item">
+      <span>Linkedin</span>
+      <p>AYU EKA TAMARA</p>
+    </div>
+  </div>
+</section>
+</main>
+
+
+  <footer>AYU EKA TAMARA · PORTFOLIO</footer>
+  <script src="script.js"></script>
+</body>
+</html>
